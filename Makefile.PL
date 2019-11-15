@@ -20,7 +20,7 @@ WriteMakefile (
 		'threads::shared' => '0'
         },
 	PREREQ_PM	=> {
-		'Thread::Signal' => '1.07',
+		'Thread::Signal' => 0,
 		'load' => 0,
 	},
         dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
