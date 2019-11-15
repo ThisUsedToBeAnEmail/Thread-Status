@@ -909,6 +909,8 @@ so that:
 
 will give you an overview of the status.
 
+=back
+
 =head2 stop
 
 The "stop" class method stops the thread that performs the status monitoring.
