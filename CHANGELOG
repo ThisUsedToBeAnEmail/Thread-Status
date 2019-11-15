@@ -1,4 +1,11 @@
-0.05	7 November 2019
+0.06	15 November 2019
+	- Fixed pod error as reported by CPANTS. - Mohammad S Anwar (MANWAR)
+	- Update Makefile.PL to include CONFIGURE_REQUIRES, BUILD_REQUIRES, dist, clean
+	- Add link to github repository
+	- Update Licence
+
+0.05	9 November 2019
+	Adoption
 
 0.04	13 August 2003
 	Cleaned up Makefile.PL and adapted copyright info.  Increased
