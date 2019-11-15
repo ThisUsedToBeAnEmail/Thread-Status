@@ -1,6 +1,6 @@
 language: perl
 perl:
-  - "5.26-thr"
+  - "5.8.4-thr"
   - "5.26-shrplib"
 sudo: false
 matrix:
