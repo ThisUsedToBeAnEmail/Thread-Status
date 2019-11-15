@@ -7,7 +7,7 @@ use Thread::Signal ();
 # Make sure we have version info for this module
 # Make sure we do everything by the book from now on
 
-$VERSION = '0.05';
+$VERSION = '0.06';
 use strict;
 
 # Make sure we only load stuff when we actually need it
@@ -949,11 +949,13 @@ section of that module for up-to-date information.
 
 Elizabeth Mattijsen, <liz@dijkmat.nl>.
 
+maintained by LNATION, <thisusedtobeanemail@gmail.com>
+
 Please report bugs to <perlbugs@dijkmat.nl>.
 
 =head1 COPYRIGHT
 
-Copyright (c) 2002-2003 Elizabeth Mattijsen <liz@dijkmat.nl>. All rights
+Copyright (c) 2002-2003 Elizabeth Mattijsen <liz@dijkmat.nl>, 2019 LNATION <thisusedtobeanemail@gmail.com>. All rights
 reserved.  This program is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
 

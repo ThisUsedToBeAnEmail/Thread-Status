@@ -1,0 +1,13 @@
+language: perl
+perl:
+  - "5.26-thr"
+  - "5.26-shrplib"
+sudo: false
+matrix:
+  include:
+    - perl: "5.18-shrplib"
+      env: COVERAGE=1
+  allow_failures:
+    - perl: "blead"
+before_install:
+  - eval $(curl https://travis-perl.github.io/init) --auto
